@@ -19,7 +19,9 @@ public class Spa2 {
     public static void main(String[] args) { 
         try {
             ArrayList<User> userList = CVSReader.userfile();
+            ArrayList<Service> serviceList = CVSReader.servicefile();
              System.out.println(userList);
+             System.out.println(serviceList);
              
             System.out.println("\n******Welcome To out SPA******");
             

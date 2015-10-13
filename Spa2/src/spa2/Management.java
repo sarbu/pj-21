@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author sarbu_192
  */
-public class Services {
+public class Management {
     
     public static Scanner scan = new Scanner(System.in);
     public static String option2;

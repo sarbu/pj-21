@@ -46,7 +46,7 @@ import java.io.*;
                                 + " , Last Name = " + customer[2] 
                                 + " , Check In Date = " + customer[3]
                                 + " , Check Out Date = " + customer[4]);
-                    Services.getservicesProvided();
+                    Management.getservicesProvided();
 //        }
             }
         } catch (FileNotFoundException e) {
