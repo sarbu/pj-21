@@ -7,7 +7,7 @@ package spa2;
 
 /**
  *
- * @author alex
+ * @author sarbu_192
  */
 public class Schedule {
     
