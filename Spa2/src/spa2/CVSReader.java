@@ -106,7 +106,7 @@ public class CVSReader {
                            new Service(
                                 serviceFields[0],
                                 parseDouble(serviceFields[1]),
-                                parseBoolean(serviceFields[2]),
+                                !parseBoolean(serviceFields[2]),
                                 durations
                              )
                         );   
