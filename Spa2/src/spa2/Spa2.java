@@ -26,12 +26,23 @@ public class Spa2 {
     
     public static Scanner scan = new Scanner(System.in);
     
-    public static void getID(){
+    public static void getID(String id){
 //        System.out.println("\nPlease enter the ID of the customer: ");
 //        String ID = ID();
-        ID();
-        ReadCVS obj = new ReadCVS();
-        obj.run();
+//        this.id= ID();
+        System.out.print("\nPlease enter the ID of the customer:\n ");
+        id= scan.nextLine();
+        id.toString();
+//        System.out.println("poop ");
+//        searchfile obj = new searchfile();
+//        obj.Runner();
+//        String l=ID();
+//        if (ReadCVS.line.contains(l)){
+        
+        
+//        ReadCVS obj = new ReadCVS();
+//        obj.run();
+//        }
         //ID();
 //        boolean loggedIn = false;
 //         try {
@@ -44,11 +55,15 @@ public class Spa2 {
         
         }
     
-     public static String ID() {
-        System.out.print("\nPlease enter the ID of the customer:\n ");
-        return scan.nextLine();
-    }
+//     public static String ID() {
+////        System.out.print("\nPlease enter the ID of the customer:\n ");
+//        return scan.nextLine();
+//    }
   
+     
+     
+     
+     
     public static void main(String[] args) {
         
 //        String option;
@@ -57,8 +72,20 @@ public class Spa2 {
         
 //        option = getOption();
         System.out.println("\n******Welcome To out SPA******");
-        getID();
-        Services.getservicesProvided();
+//        System.out.print("\nPlease enter the ID of the customer:\n ");
+        getID(null);
+//        ReadCVS obj = new ReadCVS();
+//        obj.run();
+//        searchfile obj = new searchfile();
+//        obj.Runner();
+//        getID();
+//        ReadCVS obj = new ReadCVS();
+//        String line;
+//        obj.line = line;
+//        if (ReadCVS.line.contains(ID())){
+//        searchfile.Runner();
+//        Services.getservicesProvided();
+//        }
 //        option = getOption();
 //        do {
 //            getID();
