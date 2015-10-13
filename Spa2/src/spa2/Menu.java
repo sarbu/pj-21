@@ -22,6 +22,62 @@ public class Menu {
     public static String option2;
     public static String option;
     
+    
+     public void mainMenu() {
+        System.out.println("\n******Choose One from the list of services below******\n");
+        System.out.println("A: Services Available ");
+        System.out.println("B: Booking");
+        System.out.println("C: Cancelation");
+        System.out.println("Q: quit program");
+        
+        option = getOption();
+        if (option.equalsIgnoreCase("A")) {
+            getservicesProvided();
+        }
+            else if (option.equalsIgnoreCase("B")) {
+                //facialTreatment(); 
+            }
+            else if (option.equalsIgnoreCase("C")) {
+               // facialTreatment(); 
+            }
+            else if (option.equalsIgnoreCase("Q")) {
+                System.exit(0);
+            }
+        else {
+                System.out.println("\nPlease enter a valid option");
+                 mainMenu();
+            }       
+        
+    }
+     
+//     public void cancel() {
+//        System.out.println("\n******You have choosen Cancelation******\n");
+//        System.out.println("A: Enter the reservation number you want to cancel ");
+//        System.out.println("B: Booking");
+//        System.out.println("C: Cancelation");
+//        System.out.println("Q: quit program");
+//        
+//        option = getOption();
+//        if (option.equalsIgnoreCase("A")) {
+//            getservicesProvided();
+//        }
+//            else if (option.equalsIgnoreCase("B")) {
+//                //facialTreatment(); 
+//            }
+//            else if (option.equalsIgnoreCase("C")) {
+//               // facialTreatment(); 
+//            }
+//            else if (option.equalsIgnoreCase("Q")) {
+//                System.exit(0);
+//            }
+//        else {
+//                System.out.println("\nPlease enter a valid option");
+//                 mainMenu();
+//            }       
+//        
+//    }
+    
+    
     public static void getservicesProvided() {
         System.out.println("\n******Choose One from the list of services below******\n");
         System.out.println("MB: Miniral Bath");
