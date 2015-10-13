@@ -27,7 +27,7 @@ public class CVSWriter {
 //                private static String cout = df.format(check_out);
 	
 	//CSV file header
-	private static final String FILE_HEADER = "id,first_name,last_name,check_in,";
+	private static final String FILE_HEADER = "id,first_name,last_name,check_in,check_out";
 
 	public static void writeCsvFile(String fileName) {
 

@@ -24,7 +24,9 @@ public class Spa2 {
             System.out.println(serviceList);
              
             System.out.println("\n******Welcome To out SPA******");
-            
+            System.out.println("Write CSV file:");
+            CVSWriter.writeCsvFile("WriterTest.csv");
+
         } catch (ParseException ex) {
             Logger.getLogger(Spa2.class.getName()).log(Level.SEVERE, null, ex);
         } 
