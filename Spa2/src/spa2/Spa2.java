@@ -32,7 +32,8 @@ public class Spa2 {
 //        this.id= ID();
         System.out.print("\nPlease enter the ID of the customer:\n ");
         id= scan.nextLine();
-        id.toString();
+//        id.toString();
+//        Services.getservicesProvided();
 //        System.out.println("poop ");
 //        searchfile obj = new searchfile();
 //        obj.Runner();
@@ -73,9 +74,11 @@ public class Spa2 {
 //        option = getOption();
         System.out.println("\n******Welcome To out SPA******");
 //        System.out.print("\nPlease enter the ID of the customer:\n ");
+//        getID(null);
+        ReadCVS obj = new ReadCVS();
+        obj.run();
         getID(null);
-//        ReadCVS obj = new ReadCVS();
-//        obj.run();
+//          Services.getservicesProvided();
 //        searchfile obj = new searchfile();
 //        obj.Runner();
 //        getID();
