@@ -11,7 +11,6 @@ package spa2;
  */
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.*;
 import static java.lang.Integer.parseInt;
@@ -20,7 +19,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Locale;
-import java.util.Scanner;
 import spa2.User;
 
 public class CVSReader {
