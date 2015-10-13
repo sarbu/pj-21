@@ -1,11 +1,11 @@
-name,price_per_min,no_limit,duration1,duration2,duration3
-Mineral Bath,2.5,TRUE,60,90,
-Swedish,3,FALSE,60,,30
-Shiatsu,3,FALSE,60,,30
-Deep Tissue,3,FALSE,60,,30
-Normal ,3,FALSE,60,,30
-Collagen,3,FALSE,60,,30
-Hot Stone,3.5,FALSE,60,90,
-Sugar Scrub,3.5,FALSE,60,90,
-Herbal Body Wrap,3.5,FALSE,60,90,
-Botanical Mud Wrap,3.5,FALSE,60,90,
+name,menu_shorcut,price_per_min,no_limit,duration1,duration2,duration3
+Mineral Bath,MB,2.5,TRUE,60,90,
+Swedish,SW,3,FALSE,60,,30
+Shiatsu,SH,3,FALSE,60,,30
+Deep Tissue,DT,3,FALSE,60,,30
+Normal ,N,3,FALSE,60,,30
+Collagen,C,3,FALSE,60,,30
+Hot Stone,HS,3.5,FALSE,60,90,
+Sugar Scrub,SS,3.5,FALSE,60,90,
+Herbal Body Wrap,HBW,3.5,FALSE,60,90,
+Botanical Mud Wrap,BMW,3.5,FALSE,60,90,
