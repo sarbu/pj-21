@@ -40,7 +40,7 @@ public class CVSWriter {
 		User user6 = new User(6, "Ghada", "Sarhan", check_in, check_out);
 		
 		//Create a new list of user objects
-		List users = new ArrayList();
+		ArrayList<User> users = new ArrayList();
 		users.add(user1);
 		users.add(user2);
 		users.add(user3);
