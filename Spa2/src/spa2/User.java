@@ -32,10 +32,9 @@ public class User {
 	 * @param ceckOut
 	 */
 	public User(long id, String givenName, String surName, Date checkIn, Date checkOut) {
-		super();
 		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.firstName = givenName;
+		this.lastName = surName;
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
 	}
