@@ -33,7 +33,7 @@ public class CVSReader {
       ArrayList<User> userList = new ArrayList();
        String line = null;
 
-	String csvFile = "MOCK_DATA.csv";
+	String csvFile = "users.csv";
 	BufferedReader br = null;
 	String cvsSplitBy = ",";
         DateFormat format = new SimpleDateFormat("M/dd/yyyy", Locale.ENGLISH);
@@ -83,7 +83,7 @@ public class CVSReader {
       ArrayList<Service> serviceList = new ArrayList();
        String line = null;
 
-	String csvFile = "Services3.csv";
+	String csvFile = "services.csv";
 	BufferedReader br = null;
 	String cvsSplitBy = ",";
         Boolean isColumn = true;
