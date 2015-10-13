@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  *
- * @author alex
+ * @author sarbu_192
  */
 public class CVSWriter {
    //Delimiter used in CSV file

@@ -96,7 +96,7 @@ public class CVSReader {
 			String[] serviceFields = line.split(cvsSplitBy);
                         ArrayList<Integer> durations = new ArrayList();
                         
-                        for(int i = 3; i < serviceFields.length; i++) {
+                        for(int i = 4; i < serviceFields.length; i++) {
                             if(!serviceFields[i].isEmpty())
                                durations.add(parseInt(serviceFields[i]));
                         }
@@ -105,8 +105,9 @@ public class CVSReader {
                         serviceList.add(
                            new Service(
                                 serviceFields[0],
-                                parseDouble(serviceFields[1]),
-                                !parseBoolean(serviceFields[2]),
+                                serviceFields[1],
+                                parseDouble(serviceFields[2]),
+                                !parseBoolean(serviceFields[3]),
                                 durations
                              )
                         );   

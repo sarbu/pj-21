@@ -14,6 +14,7 @@ import java.util.Date;
 
 public class Service {
 	private String name;
+        private String menu_key;
 	private Boolean limited;
 	private Double price;
 	private ArrayList<Integer> durations = new ArrayList();
@@ -24,8 +25,9 @@ public class Service {
 	 * @param checkIn
 	 * @param ceckOut
 	 */
-	public Service(String name, Double price, Boolean limited, ArrayList<Integer> durations) {
+	public Service(String name, String menu_key, Double price, Boolean limited, ArrayList<Integer> durations) {
 		this.name = name;
+                this.menu_key = menu_key;
 		this.limited = limited;
 		this.price = price;
 		this.durations = durations;
