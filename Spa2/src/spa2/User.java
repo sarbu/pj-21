@@ -14,23 +14,96 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
 
 public class User {
     
-     public static void main(String[] args) throws Exception {
-//    public void userCompare() throws Exception {
-        File file = new File("MOCK_DATA.csv");
-        BufferedReader br = new BufferedReader(new FileReader(file));
-        List<String> lines = new ArrayList<String>();
-        String line = br.readLine();
-        while(line != null) {
-            
-            lines.add(line.replace(",", ""));
-            line = br.readLine();
-        }
-        for(String l : lines) {
-            System.out.println(l);
-        }
-    }
+        private long id=-1;
+	private String firstName;
+	private String lastName;
+	private Date checkIn;
+	private Date checkOut;
+	/**
+	 * @param id
+	 * @param firstName
+	 * @param lastName
+	 * @param checkIn
+	 * @param ceckOut
+	 */
+	public User(long id, String givenName, String surName, Date checkIn, Date checkOut) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.checkIn = checkIn;
+		this.checkOut = checkOut;
+	}
+	/**
+	 * @return the id
+	 */
+	public long getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(long id) {
+		this.id = id;
+	}
+	/**
+	 * @return the firstName
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+	/**
+	 * @param firstName the firstName to set
+	 */
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	/**
+	 * @return the lastName
+	 */
+	public String getLastName() {
+		return lastName;
+	}
+	/**
+	 * @param lastName the lastName to set
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	/**
+	 * @return the gender
+	 */
+	public Date getcheckIn() {
+		return checkIn;
+	}
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setDate(Date checkIn) {
+		this.checkIn = checkIn;
+	}
+	/**
+	 * @return the age
+	 */
+	public Date getcheckOut() {
+		return checkOut;
+	}
+	/**
+	 * @param age the age to set
+	 */
+	public void setcheckOut(Date checkOut) {
+		this.checkOut = checkOut;
+	}
+	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", gender=" + checkIn + ", age="
+				+ checkOut + "]";
+	}
 }
