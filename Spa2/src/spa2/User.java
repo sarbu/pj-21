@@ -96,7 +96,7 @@ public class User {
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", firstName=" + firstName
-				+ ", lastName=" + lastName + ", gender=" + checkIn + ", age="
+				+ ", lastName=" + lastName + ", checkin=" + checkIn + ", checkout="
 				+ checkOut + "]";
 	}
 }
