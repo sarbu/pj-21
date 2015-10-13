@@ -23,7 +23,7 @@ public class Menu {
     public static String option;
     
     
-     public void mainMenu() {
+     public static void mainMenu() {
         System.out.println("\n******Choose One from the list of services below******\n");
         System.out.println("A: Services Available ");
         System.out.println("B: Booking");
