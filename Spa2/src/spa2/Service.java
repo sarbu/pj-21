@@ -33,12 +33,12 @@ public class Service {
 		this.durations = durations;
 	}
 
-        public void getMenuKey(){
-            if (Menu.option.equalsIgnoreCase(menu_key));
-//            Menu.option.contentEquals(menu_key);
-            Menu.getservicesProvided();
-//            System.out.print(menu_key);
-//            menu_key.contentEquals(Menu.getOption());
+        public String getMenuKey(){
+         return this.menu_key;
+        }
+        
+        public String getName() {
+            return this.name;
         }
         
         
